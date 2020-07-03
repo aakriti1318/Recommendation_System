@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Movie Prediction </title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="main">
+                <div class="logo">
+                    <img src = "logo.jpg">
+                </div>
+                <ul>
+                    <li class="active"> <a href="#"> Home </a></li>
+                    <li><a href="https://github.com/aakriti1318"> Github </a></li>
+                    <li> <a href="https://www.linkedin.com/in/aakriti-aggarwal-0ab079173/"> Linkedin </a></li>
+                </ul>
+            </div>
+            <div class = "title">
+                <h1><b>Welcome to Movie Recommender</b></h1>
+            </div>
+            <div class="form">
+                <form action="{{url_for('recommend')}}" >
+                    <input type="text" name="movie" class="form-control" placeholder="Enter movie you would like to get recommendations">
+                    <br>
+            </div>
+            <div class="butt">
+                <a href="#" class="btn"> SUBMIT</a>
+            </div>
+                    
+                </form>
+            </div>
+            
+        </header>
+    </body>
+
+</html>
